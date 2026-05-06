@@ -235,7 +235,7 @@ display: block;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   z-index: 1;
-  pointer-events: none; 
+  pointer-events: none;
 }
 
 .card__title,
@@ -268,7 +268,6 @@ display: block;
 .lots__look-more-link {
   display: inline-block;
   font-family: 'Raleway', sans-serif;
-  color: black;
   text-decoration: underline;
   border-bottom: 1px solid #fff;
   align-self: flex-start;
@@ -294,7 +293,7 @@ display: block;
 
 .about__column-logo {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   align-self: start;
   width: 240px;
@@ -343,7 +342,7 @@ display: block;
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 24px; 
+  gap: 24px;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
