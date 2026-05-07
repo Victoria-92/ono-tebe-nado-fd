@@ -124,6 +124,7 @@ body {
   text-transform: uppercase;
   color: #fff;
   line-height: 115%;
+  letter-spacing: 0.28em;
 }
 
 .aligned-text_left {
