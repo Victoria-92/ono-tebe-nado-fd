@@ -22,10 +22,10 @@ body {
 }
 
 .header__menu {
-  padding-left: 50px;
+  margin-left: 50px;
 }
 
-.header__links-list {
+.header__menu-list {
   display: flex;
   flex-direction: row;
   gap: 15px;
@@ -37,7 +37,19 @@ body {
   padding: 0;
 }
 
-.header__links-list-item:not(:first-child)::before {
+.header__menu-item a {
+  text-decoration: underline;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  text-transform: lowercase;
+}
+
+.header__menu-item_active a {
+  text-decoration: none;
+}
+
+.header__menu-item:not(:first-child)::before {
   content: "○";
   margin-right: 10px;
 }
@@ -64,7 +76,9 @@ body {
   justify-self: end;
   align-items: flex-start;
   width: 240px;
-  padding-right: 50px;
+  height: 98px;
+  margin-right: 50px;
+  margin-left: 184px;
 }
 
 .address-block_footer {
@@ -123,8 +137,8 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
-  line-height: 115%;
-  letter-spacing: 0.28em;
+  line-height: 134%; /* В макете фигмы 115% */
+  letter-spacing: 30%;
 }
 
 .aligned-text_left {
@@ -133,10 +147,14 @@ body {
 
 .aligned-text_center {
   text-align: center;
+  display: block;
+  margin-left: 0.3em;
 }
 
 .aligned-text_right {
   text-align: right;
+  display: block;
+  margin-right: -0.3em;
 }
 
 .cover__description {
@@ -341,8 +359,8 @@ body {
 
 .about__text p {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  line-height: 1.4;
+  font-size: 20px;
+  line-height: 1.2;
   margin: 0;
 }
 
